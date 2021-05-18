@@ -1,0 +1,6 @@
+domain: tutorial.kubebuilder.io
+layout:
+- go.kubebuilder.io/v3
+projectName: kubebuilder-book
+repo: kubebuilder-book
+version: "3"
