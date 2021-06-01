@@ -31,8 +31,8 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/healthz"
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
-	batchv1 "kubebuilder-book/api/v1"
-	"kubebuilder-book/controllers"
+	batchv1 "tutorial.kubebuilder.io/project/api/v1"
+	"tutorial.kubebuilder.io/project/controllers"
 	//+kubebuilder:scaffold:imports
 )
 

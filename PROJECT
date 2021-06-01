@@ -1,8 +1,8 @@
 domain: tutorial.kubebuilder.io
 layout:
 - go.kubebuilder.io/v3
-projectName: kubebuilder-book
-repo: kubebuilder-book
+projectName: project
+repo: tutorial.kubebuilder.io/project
 resources:
 - api:
     crdVersion: v1
@@ -11,7 +11,7 @@ resources:
   domain: tutorial.kubebuilder.io
   group: batch
   kind: CronJob
-  path: kubebuilder-book/api/v1
+  path: tutorial.kubebuilder.io/project/api/v1
   version: v1
   webhooks:
     defaulting: true

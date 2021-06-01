@@ -19,7 +19,6 @@ package controllers
 import (
 	"context"
 	"fmt"
-	batch "kubebuilder-book/api/v1"
 	_ "net/http"
 	"sort"
 	"time"
@@ -33,6 +32,8 @@ import (
 	ref "k8s.io/client-go/tools/reference"
 	ctrl "sigs.k8s.io/controller-runtime"
 	"sigs.k8s.io/controller-runtime/pkg/client"
+
+	batch "tutorial.kubebuilder.io/project/api/v1"
 )
 
 // CronJobReconciler reconciles a CronJob object

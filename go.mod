@@ -1,4 +1,4 @@
-module kubebuilder-book
+module tutorial.kubebuilder.io/project
 
 go 1.15
 
